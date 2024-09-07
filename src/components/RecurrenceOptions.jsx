@@ -1,6 +1,3 @@
-// /src/components/RecurrenceOptions.jsx
-import { useDateContext } from "../context/DateContext";
-
 const recurrenceOptions = ["Daily", "Weekly", "Monthly", "Yearly"];
 export default function RecurrenceOptions({
   recurrence,

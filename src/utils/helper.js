@@ -51,7 +51,7 @@ export const calculateRecurringDates = ({
 }) => {
   const dates = [];
   recurrence = recurrence.toLowerCase();
-  let countOfSelectedDays = 0;
+
   startDate = startDate || Date.now();
   startDate = new Date(startDate);
   let currentDate = new Date(startDate);

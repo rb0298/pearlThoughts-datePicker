@@ -1,12 +1,10 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import NthDaySelector from "./components/NthDaySelector";
 import CalendarPreview from "./components/CalendarPreview";
 import { calculateRecurringDates } from "./utils/helper";
 import DateRangeSelector from "./components/DateRangeSelector";
 import DaySelector from "./components/DaySelector";
 import RecurrenceOptions from "./components/RecurrenceOptions";
-
-const recurrenceOptions = ["Daily", "Weekly", "Monthly", "Yearly"];
 
 const DatePicker = () => {
   const [recurrence, setRecurrence] = useState("Daily");

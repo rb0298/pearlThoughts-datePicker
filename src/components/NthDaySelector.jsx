@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 // Constants for nth occurrence and weekdays
 const nthOptions = ["1st", "2nd", "3rd", "4th"];
 const weekdays = [
